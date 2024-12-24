@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", bold;
+    background-color: #0FC2C0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+h1, p, button{
+    font-weight: 800;
+}
+
+h1{
+    font-size: 96px;
+    height: auto;
+    color: #fff;
+}
+
+section{
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    background-color: #0CABA8;
+    width: 950px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#relogio{
+    height: 190px;
+    font-size: 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+#relogio > div:nth-child(even) {
+    font-size: 96px;
+    color: #023535; /* Cor dos dois-pontos */
+}
+
+#horas, #minutos, #segundos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    color: #023535; 
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.botoes{
+    margin-top: 0; /* Espaçamento entre o relógio e os botões */
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os botões */
+}
+
+button{
+    width: 140px;
+    height: 60px;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 10px;
+    gap: 20px;
+    background-color: #023535;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
