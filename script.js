@@ -12,7 +12,11 @@ const resetButton = document.querySelector(".zerar");
 
 // Função para formatar números (ex: 9 -> "09")
 function formatNumber(number) {
-    return number < 10 ? `0${number}` : `${number}`;
+    if (number < 10) {
+        return '0' + number;
+    } else {
+        return number.toString();
+    }
 }
 
 // Função para atualizar o display do timer
