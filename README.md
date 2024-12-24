@@ -14,6 +14,18 @@ Este é um projeto de um timer simples desenvolvido com HTML, CSS e JavaScript. 
 - **CSS**: Estilização e design responsivo.
 - **JavaScript**: Lógica e interatividade do timer.
 
+## 🔗 Link do Projeto
+
+[Veja o projeto em execução](https://timer-virid-five.vercel.app/)
+
+---
+
+## Exemplo de Tela
+
+![Exemplo de Tela](assets/img/image.png)
+
+---
+
 ## Estrutura do Projeto
 
 ```plaintext
